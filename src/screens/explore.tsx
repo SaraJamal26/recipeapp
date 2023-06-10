@@ -11,17 +11,7 @@ import {
 import axios from 'axios';
 import { ScrollView } from 'react-native-gesture-handler';
 
-const options = {
-  method: 'GET',
-  url: 'https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/random',
-  params: {
-    number: '30'
-  },
-  headers: {
-    'X-RapidAPI-Key': '343d2f1ca1mshb6ab5c14bb49d02p1e8060jsn9cd5122231e2',
-    'X-RapidAPI-Host': 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
-  }
-};
+
 
 
 const Explore = ({navigation}: any) => {
